@@ -6,3 +6,13 @@ It creates a .git folder that holds all the history data. I need to do it in ord
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a temporary cache to hold the files you are getting ready to commit.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use git diff to review the changes made in the staging area to ensure that it is one logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful will creating different versions of code or when experimenting to keep them seperate from the original. 
